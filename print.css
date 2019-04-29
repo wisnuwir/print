@@ -1,41 +1,47 @@
- 	html, body {
-    width: 100mm;
-    height: 100mm;   
-    margin: 0;
-    padding: 0;
+  html, body {
+    width: 10cm;
+    height: 10cm;     
+    padding: 1px 1px;
+    margin: 1px 1px;
     background-color: #FAFAFA;
-    font: 12pt "Tahoma";
+    /*font: 10pt "Tahoma";*/
+    line-height: 58%;
   }
   * {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
   }
   .page {
-    width: 100mm;
-    min-height: 100mm;
-    padding: 2mm 2mm;
-    margin: 2mm 2mm;
-    border: 1px black solid;
+    width: 10cm;
+    height: 10cm;  
+    padding: 0;
+    margin: 0;
     background: white;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   }
   @page {
-    size: 100mm 100mm;
-    margin: 0;
+    size: 10cm 10cm;
+    padding: 1px 1px;
+    margin: 1px 1px;
+    background: white;
   }
   @media print {
     html, body {
-      width: 100mm;
-      height: 100mm;        
+     width: 10cm;
+     height: 10cm;     
+     padding: 0;
+     margin: 0;
+     background-color: #FAFAFA;
+     font: 8.5pt "Tahoma";
+     line-height: 99%;      
     }
-  .page {
-    margin: 0;
-      border: initial;
-      border-radius: initial;
-      width: initial;
-      min-height: initial;
-      box-shadow: initial;
-      background: initial;
-      page-break-after: always;
-    }
+   .page {
+     margin: 0;
+     border: initial;
+     border-radius: initial;
+     width: initial;
+     min-height: initial;
+     box-shadow: initial;
+     background: initial;
+     page-break-after: always;
    }
+  }
