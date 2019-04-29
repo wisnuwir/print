@@ -13,8 +13,8 @@
   .page {
     width: 100mm;
     min-height: 100mm;
-    padding: 4px 4px;
-    margin: 4px 4px;
+    padding: 2mm 2mm;
+    margin: 2mm 2mm;
     border: 1px black solid;
     background: white;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
