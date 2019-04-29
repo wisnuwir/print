@@ -13,8 +13,8 @@ body {
 .page {
 	width: 100mm;
 	min-height: 100mm;
-	padding: 20mm;
-	margin: 10mm auto;
+	padding: 2px 2px;
+	margin: 2px 2px;
 	border: 1px black solid;
 	border-radius: 2px;
 	background: white;
